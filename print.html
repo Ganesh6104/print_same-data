@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+body{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    
+    margin:210px 300px 100px 450px;
+    
+    background-image: url(https://img.freepik.com/free-photo/chat-message-yellow-speech-bubble-icon-notification-button-talk-dialog-symbol-conversation-button-icon-symbol-background-3d-illustration_56104-2068.jpg);
+    background-repeat: no-repeat;
+    background-size: 1530px 700px;
+}
+h1{
+  text-shadow: 5px 5px 5px pink;
+}
+.message{
+  border:4px solid black;
+}
+input{
+  size: 50px;
+}
+</style>
+<body>
+  <h1>Enter a message </h1><br>
+  
+    <div class="container">
+    </div>
+    <div class="message">
+    <label>✉️</label>
+    <input type="text"  name="msg-ip" id="msg-ip" placeholder="Enter your message"><br><br>
+    <center><button id="click" onclick="getMessage()">Submit</button></center>
+    <p id="msg-op"></p>
+    <script src="print.js"></script>
+  </div>
+</body>
+</html>
